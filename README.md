@@ -1,4 +1,40 @@
-# Getting Started with Create React App
+# DEV NOTES:
+## Design Inspiration
+
+I took pinterest as an inspiration on how I would like the list of cat to be tiled across the page. Each tile is hoverable with effect that shows details and a button to view the cat detail.  The cat detail page will be just be a simple card with all the needed info and a back button
+
+## KEY FEATURES
+
+1. Home page with list of cats
+  a. As a user I Should see a load more button to paginate and should disappear if all cat in the category is loaded
+  b. As a user I should be able to select cat breeds on a select input box and my selection will act as a filter on the cat query
+2. Cat Details Page
+  a. As a User, when I clicked on any cat from the home page it should redirect me to another page
+  b. As a user, this page should show me the ff. details of the selected cat
+    1. Image
+    2. Breed Name
+    3. Origin
+    4. Temperament
+    5. description
+  c. As a user, I'm expecting to have a back button then when clicked will lead me back to the home page
+    1. When redirected back to the home page, the user should expect that the previous selected category and the loaded cat list is preserved
+3. Exception Handling - on the event that an API error occured, the user should see an alert or banner saying :  “Apologies but we could not load new cats for you at this time! Miau!” 
+## Non-functional Requirements
+
+1. Effective Class, method, comments, and variable names - make it concise
+2. Avoid code duplication
+3. Code should be readable and consistent
+4. Effective source tree directory structure and separation of concern
+5. Effective file organization - codes should not be in one single file (no spag code)
+6. Correct Exception handling - as dscribed on #3 key feature
+7. Git utilisation
+
+### Linting
+https://www.npmjs.com/package/eslint-plugin-react
+
+
+
+# [DEFAULT REACT README FROM HERE BELOW] Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

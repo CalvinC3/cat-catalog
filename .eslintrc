@@ -1,0 +1,30 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "semi": "off",
+    "comma-dangle": "off",
+    "camelcase": "off",
+    "implicit-arrow-linebreak": "off",
+    "operator-linebreak": "off",
+    "object-curly-newline": "off",
+    "global-require": "off",
+    "react/jsx-filename-extension": "off",
+    "import/prefer-default-export": "off",
+    "import/named": "off",
+    "react/jsx-curly-newline": "off",
+    "no-undef": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}
