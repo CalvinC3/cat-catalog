@@ -1,6 +1,6 @@
 {
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2020,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -13,8 +13,9 @@
     "plugin:react/recommended"
   ],
   "rules": {
+    "object-curly-spacing": "warn",
     "semi": "off",
-    "comma-dangle": "off",
+    "comma-dangle": "warn",
     "camelcase": "off",
     "implicit-arrow-linebreak": "off",
     "operator-linebreak": "off",
