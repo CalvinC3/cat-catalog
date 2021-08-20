@@ -3,7 +3,12 @@ import {createContext} from "react"
 export const GlobalState = createContext()
 
 const Context = ({children}) => {
-  const [breeds, setBreeds] = useState([])
+  const [breedList, setBreedList] = useState([])
+  const [breedDetails, setBreedDetails] = useState({
+    breed: {},
+    image: null,
+    isLoading: true
+  })
   return (
     <GlobalState.Provider>
       {children}
